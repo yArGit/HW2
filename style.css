@@ -1,0 +1,25 @@
+th {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;;
+    padding: 2px;
+    
+}
+
+table {
+    border: 2px solid black;
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 13px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;;
+    padding: 2px;
+}
