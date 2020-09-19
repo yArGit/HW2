@@ -51,29 +51,32 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
             <input type="text" placeholder="Введіть ім'я">
             <input type="text" placeholder="Введіть Прізвище">
-            <br>
+            <div class="stat">
             <h3>Оберіть Вашу стать</h3>
-                <input type="radio" id="stat" name="Пол" value="stat" checked> <label for="stat" >Чоловіча</label>
-                <input type="radio" id="stat" name="Пол" value="stat"> <label for="stat">Жіноча</label>
-<br>
+                <input type="radio"  name="stat" value="man" checked> <label for="stat">Чоловіча</label>
+                <input type="radio"  name="stat" value="woman"> <label for="stat">Жіноча</label>
+            </div>
 <textarea name="question" id="question" cols="30" rows="10" placeholder="your question"></textarea>
-<br>
+            <div class="checkbox">
                 <h3>Оберіть мову</h3>
-                <input type="checkbox" id="language" name="language" value="eng"> <label for="language">English</label> <br>
-                <input type="checkbox" id="language" name="language" value="rus"> <label for="language">Russian</label> <br>
-                <input type="checkbox" id="language" name="language" value="ukr"> <label for="language">Ukrainian</label> <br>
-                <br>  
+                <input type="checkbox" id="language1" name="eng" value="eng"> <label for="language1">English</label> <br>
+                <input type="checkbox" id="language2" name="rus" value="rus"> <label for="language2">Russian</label> <br>
+                <input type="checkbox" id="language3" name="ukr" value="ukr"> <label for="language3">Ukrainian</label> <br>  
+                    </div>
+                    <div class="select-city">
                     <select name="city" id="city">
-                        <optgroup label="Оберіть місто"></optgroup>
+                        <option disabled selected>Оберіть місто</option>
                         <option value="1">Київ</option>
                         <option value="2">Харків</option>
                         <option value="3">Дніпро</option>
                         <option value="4">Львів</option>
                         <option value="5">Одеса</option>
                     </select>
-                    <button name="knopka">button</button>
+                </div>
+                    <div class="button">
+                        <button name="knopka">button</button>
+                    </div>
             </main>
 </body>
